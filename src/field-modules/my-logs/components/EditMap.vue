@@ -27,8 +27,8 @@ export default {
   props: ['logs',
     'assets',
     'id',
-    'systemOfMeasurement'],
-
+    'systemOfMeasurement'
+  ],
   computed: {
     areaGeoJSON() {
       return (process.env.NODE_ENV === 'development')
